@@ -44,6 +44,14 @@ function bindEvents() {
     // Open modal — Tambah
     $('#btnTambah').addEventListener('click', () => openModal());
 
+    // Cetak Laporan
+    $('#btnCetak').addEventListener('click', () => {
+        const params = new URLSearchParams();
+        if (dateFrom.value) params.set('date_from', dateFrom.value);
+        if (dateTo.value) params.set('date_to', dateTo.value);
+        window.open(`laporan.php?${params.toString()}`, '_blank');
+    });
+
     // Close modal
     $('#modalClose').addEventListener('click', closeModal);
     $('#btnBatal').addEventListener('click', closeModal);

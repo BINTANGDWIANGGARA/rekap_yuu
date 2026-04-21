@@ -76,10 +76,16 @@
     <section class="table-section">
         <div class="table-header">
             <h2>Data Rekap Penyerahan & Pengembalian</h2>
-            <button class="btn btn-primary" id="btnTambah">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
-                Tambah Data
-            </button>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-outline" id="btnCetak" style="border-color: #cbd5e1; background: white; color: #334155; display: flex; align-items: center; gap: 6px;">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                    Cetak Laporan
+                </button>
+                <button class="btn btn-primary" id="btnTambah">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                    Tambah Data
+                </button>
+            </div>
         </div>
         <div class="filters-bar">
             <div class="search-box">
