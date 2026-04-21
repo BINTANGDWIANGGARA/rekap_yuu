@@ -152,11 +152,11 @@ function renderTable(data) {
             <td>${row.hari}, ${tgl}</td>
             <td>${esc(row.nama_petugas)}</td>
             <td>${esc(row.nama_guru_awal)}</td>
-            <td>${row.jam_penyerahan.substring(0,5)}</td>
+            <td>${row.jam_penyerahan ? row.jam_penyerahan.substring(0,5) : ''}</td>
             <td>${row.jumlah_penyerahan}</td>
-            <td>${esc(row.nama_guru_akhir)}</td>
-            <td>${row.jam_pengembalian.substring(0,5)}</td>
-            <td>${row.jumlah_pengembalian}</td>
+            <td>${esc(row.nama_guru_akhir || '')}</td>
+            <td>${row.jam_pengembalian ? row.jam_pengembalian.substring(0,5) : ''}</td>
+            <td>${row.jumlah_pengembalian !== null ? row.jumlah_pengembalian : ''}</td>
             <td><span class="selisih-badge ${selisihClass}">${selisih}</span></td>
             <td>
                 <div class="action-btns">
