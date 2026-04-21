@@ -1,4 +1,4 @@
-# 📱 Sistem Rekap Penyerahan & Pengembalian Gawai
+# Sistem Rekap Penyerahan & Pengembalian Gawai
 
 Aplikasi berbasis web (Dashboard Admin) yang digunakan untuk mencatat dan mengelola rekapitulasi data penyerahan dan pengembalian gawai (HP/Perangkat) secara *real-time* tanpa *reload* halaman (*Single Page Application feel*).
 
@@ -6,18 +6,18 @@ Sistem ini didesain agar sangat mudah digunakan, responsif, dan memiliki fitur *
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-- **⚡ Proses Cepat (AJAX):** Semua proses Tambah, Edit, Hapus, dan Pencarian data dilakukan di dalam pop-up *modal* tanpa perlu *refresh* (pindah halaman).
-- **🤖 Auto-Fill Tanggal & Waktu:** Saat menambahkan data baru, form akan secara otomatis mendeteksi Hari, Tanggal, dan Jam saat itu juga.
-- **📊 Dashboard Statistik:** Menampilkan ringkasan total data, total gawai diserahkan, dikembalikan, serta selisih gawai yang belum dikembalikan.
-- **🔍 Pencarian & Filter:** Cari data berdasarkan nama petugas/guru, dan saring data berdasarkan rentang tanggal (Dari - Sampai).
-- **🖨️ Cetak Laporan (Format Excel):** Laporan dapat dicetak dengan format tabel terstruktur, warna *header* khusus, ringkasan selisih data, dan kolom tanda tangan (siap cetak PDF/Printer).
-- **⚙️ Auto-Setup Database:** Tidak perlu repot impor file `.sql`. Sistem akan otomatis membuat database `rekap_yuu` dan tabel `rekap_gawai` jika belum ada.
+- ** Proses Cepat (AJAX):** Semua proses Tambah, Edit, Hapus, dan Pencarian data dilakukan di dalam pop-up *modal* tanpa perlu *refresh* (pindah halaman).
+- ** Auto-Fill Tanggal & Waktu:** Saat menambahkan data baru, form akan secara otomatis mendeteksi Hari, Tanggal, dan Jam saat itu juga.
+- ** Dashboard Statistik:** Menampilkan ringkasan total data, total gawai diserahkan, dikembalikan, serta selisih gawai yang belum dikembalikan.
+- ** Pencarian & Filter:** Cari data berdasarkan nama petugas/guru, dan saring data berdasarkan rentang tanggal (Dari - Sampai).
+- ** Cetak Laporan (Format Excel):** Laporan dapat dicetak dengan format tabel terstruktur, warna *header* khusus, ringkasan selisih data, dan kolom tanda tangan (siap cetak PDF/Printer).
+- ** Auto-Setup Database:** Tidak perlu repot impor file `.sql`. Sistem akan otomatis membuat database `rekap_yuu` dan tabel `rekap_gawai` jika belum ada.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 - **Frontend:** HTML5, CSS3 (Custom Styles), JavaScript (Vanilla / Fetch API)
 - **Backend:** PHP Native (Versi 7.4 / 8.x)
@@ -26,7 +26,7 @@ Sistem ini didesain agar sangat mudah digunakan, responsif, dan memiliki fitur *
 
 ---
 
-## 🚀 Cara Instalasi & Penggunaan
+##  Cara Instalasi & Penggunaan
 
 1. **Persiapan Server Lokal:**
    Pastikan Anda sudah menginstal aplikasi web server seperti [XAMPP](https://www.apachefriends.org/index.html), WAMP, atau Laragon.
@@ -50,7 +50,7 @@ Sistem ini didesain agar sangat mudah digunakan, responsif, dan memiliki fitur *
    http://localhost/rekap_yuu
    ```
 
-5. **Selesai! 🎉**
+5. **Selesai! **
    Database dan tabel akan terbuat secara otomatis. Anda sudah bisa langsung menggunakan aplikasi untuk menambah data.
 
 ---
